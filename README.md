@@ -1,4 +1,4 @@
-![Awesome GIF](https://github.com/sortedcord/sortedcord/blob/master/https___static-cdn.pixlr.com_photo_online-image-editor-20201201.gif?raw=true)
+![Awesome GIF](https://raw.githubusercontent.com/sortedcord/sortedcord/main/https___static-cdn.pixlr.com_photo_online-image-editor-20201201.gif)
 
 <!--
 **sortedcord/sortedcord** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
