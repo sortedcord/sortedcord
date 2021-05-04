@@ -1,9 +1,8 @@
 ![Awesome GIF](https://raw.githubusercontent.com/sortedcord/sortedcord/main/https___static-cdn.pixlr.com_photo_online-image-editor-20201201.gif)
 
-- 🔭 I’m currently learninng flutter
+- 🔭 I’m currently learning frontend web design.
 - 🌱 I love ricing linux.
-- 💬 Ask me about anything that makes sense
-- 📫 How to reach me: @sortedcord Discord: sortedcord#5555
+- 📫 How to reach me: Discord: sortedcord#0716
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: Dogs bark
+- ⚡ Fun fact: a = b
 
