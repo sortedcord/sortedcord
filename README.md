@@ -6,3 +6,4 @@
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: a = b
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord)](https://github.com/sortedcord/github-readme-stats)
