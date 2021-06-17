@@ -124,13 +124,13 @@
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
           <text
-            x="0"
+            x="-1"
             y="0"
             alignment-baseline="central"
             dominant-baseline="central"
             text-anchor="middle"
           >
-           SS
+           S
           </text>
         </g>
       </g>
