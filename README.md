@@ -9,3 +9,6 @@
 # Metrics
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&theme=bear)](https://github.com/sortedcord/github-readme-stats)
+
+![Sorted's GitHub stats](https://github-readme-stats.vercel.app/api?username=sortedcord&count_private=true&theme=bear)
+
