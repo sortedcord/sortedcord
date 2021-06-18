@@ -12,7 +12,7 @@
 
 
 <a href="https://github.com/sortedcord/">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=sortedcord&show_icons=true&include_all_commits=true&theme=gruvbox" alt="Sorted's github stats" />
+  <img align="center" src="readmestat-kzk6p871y-sortedcord.vercel.app/api?username=sortedcord&show_icons=true&include_all_commits=true&theme=gruvbox" alt="Sorted's github stats" />
 </a>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
