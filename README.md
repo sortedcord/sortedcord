@@ -24,5 +24,5 @@
 
 # Notes Repositories
 
-| <a href="https://github.com/sortedcord/vue-notes">  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=material-palenight" /> </a>  | <a href="https://github.com/sortedcord/anglular-notes">    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=material-palenight" />   </a> |   |   |
+| <a href="https://github.com/sortedcord/vue-notes">  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=material-palenight" /> </a>  | <a href="https://github.com/sortedcord/anglular-notes">    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=material-palenight" />   </a> |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
