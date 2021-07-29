@@ -16,6 +16,9 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia" />
 </a>
 
+![Aditya's GitHub stats](https://github-readme-stats.vercel.app/api?username=sortedcord&show_icons=true&theme=algolia)
+
+
 # Dot Repositories
 
 | <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=prussian " /> </a> | <a href="https://github.com/sortedcord/Sortify">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=prussian " /> </a> |
