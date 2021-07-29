@@ -13,14 +13,14 @@
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia" />
 </a>
 
 # Dot Repositories
 
-| <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=gruvbox" /> </a> | <a href="https://github.com/sortedcord/Sortify">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=gruvbox" /> </a> |
+| <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=prussian " /> </a> | <a href="https://github.com/sortedcord/Sortify">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=prussian " /> </a> |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://github.com/sortedcord/sweet-mars-i3">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=gruvbox" /> </a>     | <a href="https://github.com/sortedcord/Dracula">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=gruvbox" /> </a>     |
+| <a href="https://github.com/sortedcord/sweet-mars-i3">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=prussian " /> </a>     | <a href="https://github.com/sortedcord/Dracula">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=prussian " /> </a>     |
 
 # Notes Repositories
 
