@@ -1,4 +1,4 @@
-![Awesome GIF](https://raw.githubusercontent.com/sortedcord/sortedcord/main/https___static-cdn.pixlr.com_photo_online-image-editor-20201201.gif)
+![Awesome GIF](vid.gif)
 
 - 🔭 I’m currently learning frontend web design.
 - 🌱 I love ricing linux.
