@@ -1,10 +1,5 @@
 ![Awesome GIF](vid.gif)
 
-- 🔭 I’m currently learning frontend web design.
-- 🌱 I love ricing linux.
-- 📫 How to reach me: Dont.
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: The cake is not a lie.
 
 # My Weapons
 
