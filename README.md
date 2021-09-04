@@ -4,9 +4,7 @@ td, th {
 }
 </style> -->
 
-
 ![Awesome GIF](vid.gif)
-
 
 # My Weapons
 
@@ -24,13 +22,11 @@ td, th {
 
 ### Operating Systems
 
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" /> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" /> <img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" /> <img src="https://img.shields.io/badge/manjaro-35BF5C?style=flat-square&logo=manjaro&logoColor=white" /> <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" /> <img src="https://img.shields.io/badge/mac%20os-000000?style=flat-square&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/lineageos-167C80?style=flat-square&logo=lineageos&logoColor=white" /> 
-
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" /> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" /> <img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" /> <img src="https://img.shields.io/badge/manjaro-35BF5C?style=flat-square&logo=manjaro&logoColor=white" /> <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" /> <img src="https://img.shields.io/badge/mac%20os-000000?style=flat-square&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/lineageos-167C80?style=flat-square&logo=lineageos&logoColor=white" />
 
 # Metrics
 
-*NOTE: Top languages does not indicate my skill level or something like that, it's a github metric of which languages i have the most code on github.
-
+\*NOTE: Top languages does not indicate my skill level or something like that, it's a github metric of which languages i have the most code on github.
 
 <table>
     <tr>
@@ -41,14 +37,24 @@ td, th {
         </th>
 </table>
 
-
 # Dot Repositories
 
-| <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=prussian " /> </a> | <a href="https://github.com/sortedcord/Sortify">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=prussian " /> </a> |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://github.com/sortedcord/sweet-mars-i3">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=prussian " /> </a>     | <a href="https://github.com/sortedcord/Dracula">   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=prussian " /> </a>     |
+<table>
+    <tr>
+        <th><a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=prussian " /> </a></th>
+        <th><a href="https://github.com/sortedcord/Sortify">    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=prussian " /> </a></th>
+    </tr>
+    <tr>
+        <th><a href="https://github.com/sortedcord/sweet-mars-i3"> <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=prussian " /> </a></th>
+        <th><a href="https://github.com/sortedcord/Dracula"> <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=prussian " /> </a></th>
+    </tr>
+</table>
 
 # Notes Repositories
 
-| <a href="https://github.com/sortedcord/vue-notes">  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=material-palenight" /> </a> | <a href="https://github.com/sortedcord/anglular-notes">    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=material-palenight" />   </a> |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+<table>
+    <tr>
+        <th> <a href="https://github.com/sortedcord/vue-notes">  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=material-palenight" /> </a></th>
+        <th> <a href="https://github.com/sortedcord/anglular-notes">    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=material-palenight" />   </a></th>
+    </tr>
+</table>
