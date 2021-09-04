@@ -29,14 +29,11 @@ td, th {
 
 \*NOTE: Top languages does not indicate my skill level or something like that, it's a github metric of which languages i have the most code on github.
 
-<table style="border: none!important;">
-    <tr style="border: none!important;">
-        <th style="border: none!important;">  <a href="https://github.com/anuraghazra/github-readme-stats">   <!-- Change the `github-readme-stats anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia" /> </a> 
-        </th>
-        <th style="border: none!important;">
-            <img src="http://github-readme-stats.vercel.app/api?username=sortedcord&show_icons=true&theme=algolia" />
-        </th>
-</table>
+<p align="center">
+ <a href="https://github.com/anuraghazra/github-readme-stats">    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia&hide=html,php&langs_count=8" width="49.6"/> </a>  
+ <img src="http://github-readme-stats.vercel.app/api?username=sortedcord&show_icons=true&theme=algolia" width="49.6" /> 
+</p>
+
 
 <h1>Dot Repos</h1>
 
