@@ -51,7 +51,7 @@ td, th {
 
 
 <h1>Trophies</h1>
-<p align="center"> <a href="https://github.com/sortedcord"><img src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=6&row=1&margin-w=15" alt="sortedcord" /></a> </p>
+<p align="center"> <a href="https://github.com/sortedcord"><img src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=6&row=1&margin-w=25" alt="sortedcord" /></a> </p>
 
 
 <h1>Dot Repos</h1>
