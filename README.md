@@ -52,7 +52,7 @@ td, th {
 
 
 <h1>🏆 Trophies</h1>
-<p align="center"> <a href="https://github.com/sortedcord"><img width=846 src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=9&margin-w=5&no-frame=true" alt="sortedcord" /></a> </p>
+<p align="center"> <a href="https://github.com/sortedcord"><img width="846" src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=9&margin-w=5&no-frame=true" alt="sortedcord" /></a> </p>
 
 <br>
 
