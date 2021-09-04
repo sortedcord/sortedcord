@@ -1,3 +1,9 @@
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
 ![Awesome GIF](vid.gif)
 
 
