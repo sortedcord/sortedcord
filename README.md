@@ -1,8 +1,8 @@
-<!-- <style>
+<style>
 td, th {
    border: none!important;
 }
-</style> -->
+</style>
 
 ![Awesome GIF](vid.gif)
 
