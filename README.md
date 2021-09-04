@@ -47,12 +47,12 @@ td, th {
 <details>
 <summary><b>📊 Github Contribution Graph</b></summary>
 <br>
-<p align="left"<a href="#"><img alt="sortedcord's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=sortedcord&theme=react-dark" /></a></p>
+<p align="center"<a href="#"><img alt="sortedcord's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=sortedcord&theme=react-dark" /></a></p>
 </details>
 
 
 <h1>🏆 Trophies</h1>
-<p align="center"> <a href="https://github.com/sortedcord"><img src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=9&row=1&margin-w=5&no-frame=true" alt="sortedcord" /></a> </p>
+<p align="center"> <a href="https://github.com/sortedcord"><img width=846 src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=9&margin-w=5&no-frame=true" alt="sortedcord" /></a> </p>
 
 <br>
 
