@@ -36,15 +36,15 @@ td, th {
 
 <h1>Dot Repos</h1>
 
-<p><a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">  <img align="center"height="160em" width="49.6%"  src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=prussian " /> </a> <a href="https://github.com/sortedcord/Sortify">    <img align="center"height="160em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=prussian " /> </a></p>
+<p><a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">  <img align="center"height="130em" width="49.6%"  src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=prussian " /> </a> <a href="https://github.com/sortedcord/Sortify">    <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=prussian " /> </a></p>
 
 
-<p><a href="https://github.com/sortedcord/sweet-mars-i3"> <img align="center"height="160em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=prussian " /> </a> <a href="https://github.com/sortedcord/Dracula"> <img align="center"height="160em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=prussian " /> </a></p>
+<p><a href="https://github.com/sortedcord/sweet-mars-i3"> <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=prussian " /> </a> <a href="https://github.com/sortedcord/Dracula"> <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=prussian " /> </a></p>
 
 
 
 <h1>Notes Repos</h1>
 
 <p>
- <a href="https://github.com/sortedcord/vue-notes">  <img align="center"height="160em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=material-palenight" /> </a> <a href="https://github.com/sortedcord/anglular-notes">    <img align="center"height="160em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=material-palenight" />   </a>
+ <a href="https://github.com/sortedcord/vue-notes">  <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=material-palenight" /> </a> <a href="https://github.com/sortedcord/anglular-notes">    <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=material-palenight" />   </a>
 </p>
