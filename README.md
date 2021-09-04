@@ -51,7 +51,7 @@ td, th {
     </tr>
 </table>
 
-<h>Notes Repos</h>
+<h1>Notes Repos</h1>
 
 <table>
     <tr>
