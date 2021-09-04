@@ -32,7 +32,8 @@ td, th {
 \*NOTE: Top languages does not indicate my skill level or something like that, it's a github metric of which languages i have the most code on github.
 
 <p align="left">
-<img align="center" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia&hide=html,php&langs_count=4&hide_border=true" width="49.6%"/> <img align="center"height="160em" width="49.6%" src="http://github-readme-stats.vercel.app/api?username=sortedcord&show_icons=true&theme=algolia&hide_border=true"  /> 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia&hide=html,php&langs_count=4&hide_border=true" width="423"/> 
+<img width="423" src="http://github-readme-stats.vercel.app/api?username=sortedcord&show_icons=true&theme=algolia&hide_border=true"  /> 
 </p>
 
 <details>
