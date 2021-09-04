@@ -25,6 +25,8 @@ td, th {
 
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" /> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" /> <img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" /> <img src="https://img.shields.io/badge/manjaro-35BF5C?style=flat-square&logo=manjaro&logoColor=white" /> <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" /> <img src="https://img.shields.io/badge/mac%20os-000000?style=flat-square&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/lineageos-167C80?style=flat-square&logo=lineageos&logoColor=white" />
 
+
+
 <h1>Metrics</h1>
 
 \*NOTE: Top languages does not indicate my skill level or something like that, it's a github metric of which languages i have the most code on github.
@@ -32,6 +34,22 @@ td, th {
 <p align="center">
 <img align="center" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia&hide=html,php&langs_count=4" width="49.6%"/> <img align="center"height="160em" width="49.6%" src="http://github-readme-stats.vercel.app/api?username=sortedcord&show_icons=true&theme=algolia"  /> 
 </p>
+
+<details>
+<summary><b>🔥 Contribution Streak </b></summary>
+<p align="center">
+<img src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=algolia">
+</p>
+</details>
+
+<details>
+<summary><b>📊 Github Contribution Graph</b></summary>
+<p align="center"<a href="#"><img alt="sortedcord's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=sortedcord&theme=react-dark" /></a></p>
+</details>
+
+
+<h1>Trophies</h1>
+<p align="center"> <a href="https://github.com/sortedcord"><img src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=6&row=1&margin-w=15" alt="sortedcord" /></a> </p>
 
 
 <h1>Dot Repos</h1>
