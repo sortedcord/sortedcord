@@ -37,6 +37,7 @@ td, th {
 
 <details>
 <summary><b>🔥 Contribution Streak </b></summary>
+<br>
 <p align="center">
 <img src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=algolia">
 </p>
@@ -44,6 +45,7 @@ td, th {
 
 <details>
 <summary><b>📊 Github Contribution Graph</b></summary>
+<br>
 <p align="center"<a href="#"><img alt="sortedcord's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=sortedcord&theme=react-dark" /></a></p>
 </details>
 
