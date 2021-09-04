@@ -31,14 +31,14 @@ td, th {
 
 \*NOTE: Top languages does not indicate my skill level or something like that, it's a github metric of which languages i have the most code on github.
 
-<p align="center">
+<p align="left">
 <img align="center" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia&hide=html,php&langs_count=4" width="49.6%"/> <img align="center"height="160em" width="49.6%" src="http://github-readme-stats.vercel.app/api?username=sortedcord&show_icons=true&theme=algolia"  /> 
 </p>
 
 <details>
 <summary><b>🔥 Contribution Streak </b></summary>
 <br>
-<p align="center">
+<p align="left">
 <img src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=algolia">
 </p>
 </details>
@@ -46,25 +46,25 @@ td, th {
 <details>
 <summary><b>📊 Github Contribution Graph</b></summary>
 <br>
-<p align="center"<a href="#"><img alt="sortedcord's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=sortedcord&theme=react-dark" /></a></p>
+<p align="left"<a href="#"><img alt="sortedcord's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=sortedcord&theme=react-dark" /></a></p>
 </details>
 
 
 <h1>Trophies</h1>
-<p align="center"> <a href="https://github.com/sortedcord"><img src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=6&row=1&margin-w=25" alt="sortedcord" /></a> </p>
+<p align="left"> <a href="https://github.com/sortedcord"><img src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=algolia&column=6&row=1&margin-w=25" alt="sortedcord" /></a> </p>
 
 
 <h1>Dot Repos</h1>
 
-<p align="center"><a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">  <img align="center"height="130em" width="49.6%"  src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=prussian " /> </a> <a href="https://github.com/sortedcord/Sortify">    <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=prussian " /> </a></p>
+<p align="left"><a href="https://github.com/sortedcord/Gruvbox-Pink-Dots">  <img align="center"height="130em" width="49.6%"  src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=prussian " /> </a> <a href="https://github.com/sortedcord/Sortify">    <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=prussian " /> </a></p>
 
 
-<p align="center"><a href="https://github.com/sortedcord/sweet-mars-i3"> <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=prussian " /> </a> <a href="https://github.com/sortedcord/Dracula"> <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=prussian " /> </a></p>
+<p align="left"><a href="https://github.com/sortedcord/sweet-mars-i3"> <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=prussian " /> </a> <a href="https://github.com/sortedcord/Dracula"> <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=prussian " /> </a></p>
 
 
 
 <h1>Notes Repos</h1>
 
-<p align="center">
+<p align="left">
  <a href="https://github.com/sortedcord/vue-notes">  <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=material-palenight" /> </a> <a href="https://github.com/sortedcord/anglular-notes">    <img align="center"height="130em" width="49.6%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=material-palenight" />   </a>
 </p>
