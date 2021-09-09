@@ -35,7 +35,7 @@ td, th {
 <img src="https://github-readme-stats-sortedcord.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=algolia&hide=html&langs_count=8&hide_border=true" width="40.9%"/> 
 <img width="56.9%" src="http://github-readme-stats-sortedcord.vercel.app/api?username=sortedcord&show_icons=true&theme=algolia&hide_border=true&include_all_commits=true&count_private=true"  />
 
-<img width="47.9%" src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=algolia?hide_border=true" />
+<img width="47.9%" src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=algolia&hide_border=true" />
 <img width="49.9%" src="https://github-readme-stats.vercel.app/api/wakatime?username=sortedcord&layout=compact&theme=algolia&hide_border=true&langs_count=8" />
 </p>
 
