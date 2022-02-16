@@ -54,7 +54,7 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 ## Dev Stack
 
-<table>
+<table width="100%">
 <tr><td>
 
 **Frontweb**
@@ -137,7 +137,7 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 ## Top Projects
 
-<table>
+<table width="100%">
   <thead align="center">
     <tr border: none;>
       <td><b>🎁 Projects</b></td>
