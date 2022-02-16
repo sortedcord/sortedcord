@@ -52,7 +52,7 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 </table>
 
 
-<h1>Dev Stack</h1>
+## Dev Stack
 
 <table>
 <tr><td>
@@ -135,7 +135,7 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 <br>
 
-# Top Projects
+## Top Projects
 
 <table>
   <thead align="center">
@@ -174,7 +174,7 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 <br>
 
-<p align="center">
+<p>
 
 <img width="48.9%" src="http://github-readme-stats-sortedcord.vercel.app/api?username=sortedcord&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true"  />
 <img width="48.9%" src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=gruvbox&hide_border=true" />
