@@ -6,55 +6,49 @@ td, th {
 
 [![Visit my website!](Assets/glitch_header.gif)](https://sortedcord.tech)
 
-<p>Welcome to my page! </br> I'm Aditya, Front-end developer from <img src="assets/india_flag.png" width="13"/> <b>Delhi, India</b>. </p>
+<p><b>Welcome to my page!</b></br> I'm Aditya, Front-end developer from <img src="Assets/india_flag.png" width="13"/> <b>Delhi, India</b>. </p>
 
 Currently working on [PHION](https://github.com/phion-pm) and associated projects. Read my [blog](blog.sortedcord.tech) or follow [@sortedcord on Twitter](https://twitter.com/sortedcord).
 
 <table width="100%">
-  <tr>
-    <th width="33.3%">
-      <h2>Recent Releases</h2>
-    </th>
-    <th width="33.3%">
-      <h2>Blog & Updates</h2>
-    </th>
-    <th width="33.3%">
-      <h2>Things I'm Learning</h2>
-    </th>
-  </tr>
-  <tr><td>
-  
-  [PHION Core 0.0.1](https://pypi.org/project/phion/) - 06.02.2022
+<tr><td width="33.3%">
 
-  [OsuStatQt 0.0.5](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.5-alpha)  - 09.01.2022
+### **Recent Releases**
 
-  [OsuStatQt 0.0.4](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.4-alpha)  - 02.01.2022
+[PHION Core 0.0.1](https://pypi.org/project/phion/) - 06.02.2022
 
-  [OsuStatQt 0.0.3](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.3-alpha)  - 30.01.2021
+[OsuStatQt 0.0.5](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.5-alpha)  - 09.01.2022
 
-  <td>
+[OsuStatQt 0.0.4](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.4-alpha)  - 02.01.2022
 
-  [Revamped GH Profile](#) - 16.02.2022
+[OsuStatQt 0.0.3](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.3-alpha)  - 30.01.2021
 
-  *Paused Development* - 15.02.2022
+</th>
+<td width="33.3%">
 
-  [Thoughts on Metaverse](https://blog.sortedcord.tech/technology/metaverse-a-virtual-paradise-or-a-digital-disaster/) - 08.02.2022
+### **Blog & Updates**
 
-  [Project Concept: PHION](https://github.com/PHION-pm) - 03.02.2022
+[Revamped GH Profile](https://github.com/sortedcord) - 16.02.2022
 
-  [Enabling Discord Dev Tab Again](https://blog.sortedcord.tech/social/how-to-enable-inspect-element-tab-in-the-discord-app-2022/) - 04.02.2022
-  
-  [New Personal Blog!](https://blog.sortedcord.tech) - 02.02.2022
+*Paused Development* - 15.02.2022
 
+[Thoughts on Metaverse](https://blog.sortedcord.tech/technology/metaverse-a-virtual-paradise-or-a-digital-disaster/) - 08.02.2022
 
-  <td>
+[Project Concept: PHION](https://github.com/PHION-pm) - 03.02.2022
 
-  [Use _ for int delims](https://www.python.org/dev/peps/pep-0515/) - 14.02.2022
-  
-  [Python Decorators and wrapped functions]() - 10.02.2022
+</th>
+<td width="33.3%">
 
-  [Documentation with Obsidian](https://obsidian.md) - 03.02.2022
-  </tr>
+### **Stuff I'm Learning**
+
+[Use _ for int delims](https://www.python.org/dev/peps/pep-0515/) - 14.02.2022
+
+[Python Decorators and wrapped functions]() - 10.02.2022
+
+[Documentation with Obsidian](https://obsidian.md) - 03.02.2022
+
+</th>
+</tr>
 </table>
 
 
@@ -63,7 +57,7 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 <table>
 <tr><td>
 
-## Frontweb
+**Frontweb**
 
 <td>
 
@@ -80,9 +74,9 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 </tr><tr><td>
 
-## Design
+**Design**
 
-<td><br>
+<td>
 
 ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=flat&logo=dribbble&logoColor=white)
 ![Krita](https://img.shields.io/badge/Krita-203759?style=flat&logo=krita&logoColor=EEF37B)
@@ -93,9 +87,9 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 </tr>
 <tr><td>
 
-## AppDev
+**AppDev**
 
-<td><br>
+<td>
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=darkgreen)
@@ -107,9 +101,9 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 </tr>
 <tr><td>
 
-## DevOPs
+**DevOPs**
 
-<td><br>
+<td>
 
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat&logo=docker&logoColor=white)
@@ -117,9 +111,9 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 </tr>
 <tr><td>
 
-## OS
+**OS**
 
-<td><br>
+<td>
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
 ![Arch btw](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)
@@ -129,17 +123,17 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 </tr>
 <tr><td>
 
-## Editors
+**Editors**
 
-<td><br>
+<td>
 
 ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white)
 ![Sublime Text 4](https://img.shields.io/badge/sublime_text-%23575757.svg?&style=flat&logo=sublime-text&logoColor=important)
 ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=flat&logo=notepad%2B%2B&logoColor=black)
 ![Obsidian.md](https://img.shields.io/badge/-Obsidian.md-blueviolet)
-
-
 </table>
+
+<br>
 
 # Top Projects
 
@@ -178,7 +172,7 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
   </tbody>
 </table>
 
-<br><br>
+<br>
 
 <p align="center">
 
