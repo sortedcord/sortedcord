@@ -55,11 +55,11 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 ## Dev Stack
 
 <table width="100%">
-<tr><td>
+<tr><td width="13%">
 
 **Frontweb**
 
-<td>
+<td width="87%">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -140,11 +140,11 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 <table width="100%">
   <thead align="center">
     <tr border: none;>
-      <td><b>🎁 Projects</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>📚 Forks</b></td>
-      <td><b>🛎 Issues</b></td>
-      <td><b>📬 Pull requests</b></td>
+      <td width="40%"><b>🎁 Projects</b></td>
+      <td width="11%"><b>⭐ Stars</b></td>
+      <td width="11%"><b>📚 Forks</b></td>
+      <td width="15%"><b>🛎 Issues</b></td>
+      <td width="23%"><b>📬 Pull requests</b></td>
     </tr>
   </thead>
   <tbody>
@@ -176,8 +176,8 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 <p>
 
-<img width="48.9%" src="http://github-readme-stats-sortedcord.vercel.app/api?username=sortedcord&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true"  />
-<img width="48.9%" src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=gruvbox&hide_border=true" />
+<img width="49.7%" src="http://github-readme-stats-sortedcord.vercel.app/api?username=sortedcord&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true"  />
+<img width="49.7%" src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=gruvbox&hide_border=true" />
 
 </p>
 
