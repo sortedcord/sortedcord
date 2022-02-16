@@ -1,10 +1,7 @@
-<!-- <style>
-td, th {
-   border: none!important;
-}
-</style> -->
-
-[![Visit my website!](Assets/glitch_header.gif)](https://sortedcord.tech)
+<!-- Dark Mode -->
+[![Visit my website!](Assets/glitch_header.gif#gh-dark-mode-only)](https://sortedcord.tech)
+<!-- Light Mode -->
+[![Visit my website!](Assets/glitch_header_light.gif#gh-light-mode-only)](https://sortedcord.tech)
 
 <p><b>Welcome to my page!</b></br> I'm Aditya, Front-end developer from <img src="Assets/india_flag.png" width="13"/> <b>Delhi, India</b>. </p>
 
@@ -175,32 +172,39 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 <br>
 
 <p>
-
-<img width="49.7%" src="http://github-readme-stats-sortedcord.vercel.app/api?username=sortedcord&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true"  />
-<img width="49.7%" src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=gruvbox&hide_border=true" />
-
+<!-- Dark Mode -->
+<img width="49.7%" src="http://github-readme-stats-sortedcord.vercel.app/api?username=sortedcord&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true#gh-dark-mode-only"/>
+<img width="49.7%" src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=gruvbox&hide_border=true#gh-dark-mode-only"/>
+<!-- Light Mode -->
+<img width="49.7%" src="https://github-readme-stats.vercel.app/api?username=sortedcord&show_icons=true&theme=solarized-light&hide_border=true&include_all_commits=true&count_private=true"  />
+<img width="49.7%" src="http://github-readme-streak-stats.herokuapp.com?user=sortedcord&theme=solarized-light&hide_border=true" />
 </p>
 
 <details>
 <summary><b>📚 Language Usage</b></summary>
 <br>
 <p align="center">
-<img src="https://github-readme-stats-sortedcord.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=gruvbox&hide=html&langs_count=8&hide_border=true" width="40.9%"/> 
-<img width="57.9%" src="https://github-readme-stats.vercel.app/api/wakatime?username=sortedcord&layout=compact&theme=gruvbox&hide_border=true&langs_count=8" />
-
+<!-- Dark Mode -->
+<img src="https://github-readme-stats-sortedcord.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=gruvbox&hide=html&langs_count=8&hide_border=true#gh-dark-mode-only" width="40.9%"/> 
+<img width="57.9%" src="https://github-readme-stats.vercel.app/api/wakatime?username=sortedcord&layout=compact&theme=gruvbox&hide_border=true&langs_count=8#gh-dark-mode-only" />
+<!-- Light Mode -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sortedcord&layout=compact&theme=gruvbox_light&hide=html&langs_count=8&hide_border=true#gh-light-mode-only" width="40.9%"/> 
+<img width="57.9%" src="https://github-readme-stats.vercel.app/api/wakatime?username=sortedcord&layout=compact&theme=gruvbox_light&hide_border=true&langs_count=8#gh-light-mode-only" />
 </p>
 </details>
 
 <details>
-<summary><b>📊 Github Contribution Graph</b></summary>
-<br>
-<p align="center"<a href="#"><img alt="sortedcord's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=sortedcord&theme=react-dark" /></a></p>
+<summary><b>📊 Github Contribution Graph</b></summary><br>
+
+![sortedcord's Activity Graph](https://activity-graph.herokuapp.com/graph?username=sortedcord&theme=gruvbox)
 </details>
 
 <details>
 <summary><b> 🏆 Trophies </b></summary>
 <br>
-<p align="center"> <a href="https://github.com/sortedcord"><img width="97.8%" src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=gruvbox&column=7&margin-w=5&no-frame=true" alt="sortedcord" /></a> </p>
+<p align="center"> 
+<a href="https://github.com/sortedcord"><img width="97.8%" src="https://github-profile-trophy.vercel.app/?username=sortedcord&theme=gruvbox&column=7&margin-w=5&no-frame=true" alt="sortedcord" /></a>
+</p>
 </details>
 
 <details>
@@ -209,10 +213,16 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 <h2>🎨 Dot Repos</h2>
 
 <p align="center">
-  <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=gruvbox&hide_border=true" alt="Gruvbox-Pink-Dots"></a>
-  <a href="https://github.com/sortedcord/Sortify"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=gruvbox&hide_border=true" alt="sortify"></a>
-    <a href="https://github.com/sortedcord/sweet-mars-i3"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=gruvbox&hide_border=true" alt="Sweet mars i3"></a>
-  <a href="https://github.com/sortedcord/Dracula"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=gruvbox&hide_border=true" alt="Dracula"></a>
+<!-- Dark Mode -->
+  <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=gruvbox&hide_border=true#gh-dark-mode-only" alt="Gruvbox-Pink-Dots"></a>
+  <a href="https://github.com/sortedcord/Sortify"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=gruvbox&hide_border=true#gh-dark-mode-only" alt="sortify"></a>
+    <a href="https://github.com/sortedcord/sweet-mars-i3"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=gruvbox&hide_border=true#gh-dark-mode-only" alt="Sweet mars i3"></a>
+  <a href="https://github.com/sortedcord/Dracula"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=gruvbox&hide_border=true#gh-dark-mode-only" alt="Dracula"></a>
+  <!-- Light Mode -->
+  <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots"><img width="48.9%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Gruvbox-Pink-Dots&theme=gruvbox_light&hide_border=true#gh-light-mode-only" alt="Gruvbox-Pink-Dots"></a>
+  <a href="https://github.com/sortedcord/Sortify"><img width="48.9%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Sortify&theme=gruvbox_light&hide_border=true#gh-light-mode-only" alt="sortify"></a>
+    <a href="https://github.com/sortedcord/sweet-mars-i3"><img width="48.9%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=sweet-mars-i3&theme=gruvbox_light&hide_border=true#gh-light-mode-only" alt="Sweet mars i3"></a>
+  <a href="https://github.com/sortedcord/Dracula"><img width="48.9%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=Dracula&theme=gruvbox_light&hide_border=true#gh-light-mode-only" alt="Dracula"></a>
 </p>
 
 <br>
@@ -220,13 +230,18 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 <h2>📘 Notes Repos</h2>
 
 <p align="center">
-  <a href="https://github.com/sortedcord/vue-notes"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=gruvbox&hide_border=true" alt="vue-notes"></a>
-  <a href="https://github.com/sortedcord/angular-notes"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=gruvbox&hide_border=true" alt="sortify"></a>
+<!-- Dark Mode -->
+  <a href="https://github.com/sortedcord/vue-notes"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=gruvbox&hide_border=true#gh-dark-mode-only" alt="vue-notes"></a>
+  <a href="https://github.com/sortedcord/angular-notes"><img width="48.9%" src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=gruvbox&hide_border=true#gh-dark-mode-only" alt="sortify"></a>
+<!-- Light Mode -->
+  <a href="https://github.com/sortedcord/vue-notes"><img width="48.9%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=vue-notes&theme=gruvbox_light&hide_border=true#gh-light-mode-only" alt="vue-notes"></a>
+  <a href="https://github.com/sortedcord/angular-notes"><img width="48.9%" src="https://github-readme-stats.vercel.app/api/pin/?username=sortedcord&repo=angular-notes&theme=gruvbox_light&hide_border=true#gh-light-mode-only" alt="sortify"></a>
 </p>
 
 </details>
 <br>
 
+*This readme looks different in light mode. Try it out sometime ;)*
 ## Where to find me
 
 [![My Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://sortedcord.tech)
