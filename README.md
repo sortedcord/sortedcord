@@ -24,6 +24,8 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 <td width="33.3%">
 
 ### **Blog & Updates**
+	
+[Pep Talk On OSS](https://blog.sortedcord.tech/programming/pep-talk-open-sourcing/) - 17.02.2022
 
 [Revamped GH Profile](https://github.com/sortedcord) - 16.02.2022
 
