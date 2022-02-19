@@ -27,7 +27,7 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 </th>
 <td width="33.3%">
 
-### **Blog & Updates**
+### **[Blog](https://blog.sortedcord.tech) & Updates**
 	
 [Paid Microsoft Store App for free](https://blog.sortedcord.tech/cracking/how-to-get-almost-any-paid-microsoft-store-app-for-free/) - 19.02.2022
 	
