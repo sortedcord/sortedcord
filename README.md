@@ -25,6 +25,8 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 ### **Blog & Updates**
 	
+[Paid Microsoft Store App for free](https://blog.sortedcord.tech/cracking/how-to-get-almost-any-paid-microsoft-store-app-for-free/) - 19.02.2022
+	
 [Pep Talk On OSS](https://blog.sortedcord.tech/programming/pep-talk-open-sourcing/) - 17.02.2022
 
 [Revamped GH Profile](https://github.com/sortedcord) - 16.02.2022
@@ -33,7 +35,6 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 [Thoughts on Metaverse](https://blog.sortedcord.tech/technology/metaverse-a-virtual-paradise-or-a-digital-disaster/) - 08.02.2022
 
-[Project Concept: PHION](https://github.com/PHION-pm) - 03.02.2022
 
 </th>
 <td width="33.3%">
