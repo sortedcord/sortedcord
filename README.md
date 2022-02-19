@@ -18,7 +18,11 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 [OsuStatQt 0.0.4](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.4-alpha)  - 02.01.2022
 
-[OsuStatQt 0.0.3](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.3-alpha)  - 30.01.2021
+[OsuStatQt 0.0.3](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.3-alpha)  - 30.12.2021
+	
+[OsuStatQt 0.0.2](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.2-alpha)  - 28.12.2021
+
+[OsuStatQt 0.0.1](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.1-alpha)  - 27.12.2021
 
 </th>
 <td width="33.3%">
