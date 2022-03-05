@@ -5,7 +5,7 @@
 
 <p><b>Welcome to my page!</b></br> I'm Aditya, Front-end developer from <img src="Assets/india_flag.png" width="13"/> <b>Delhi, India</b>. </p>
 
-Currently working on [PHION](https://github.com/phion-pm) and associated projects. Read my [blog](blog.sortedcord.tech) or follow [@sortedcord on Twitter](https://twitter.com/sortedcord).
+Currently working on [PHION](https://github.com/phion-pm) and associated projects. Read my [blog](https://sortedcord.tech/blog) or follow [@sortedcord on Twitter](https://twitter.com/sortedcord).
 
 <table width="100%">
 <tr><td width="33.3%">
