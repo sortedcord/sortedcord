@@ -1,9 +1,9 @@
 #-------------------------------
 # General Site Settings
 title: sortedcord
-logo: 
-description: Norlin – A Beautiful Dark Blog Theme for Jekyll.
-baseurl: "" # The subpath of your site, e.g. /blog
+logo: favicon.ico
+description: A programmer with a focus on visual identity, creativity and utility.
+baseurl: ""
 url: "https://sortedcord.tech" # The base hostname & protocol for your site, e.g. http://example.com
 
 
