@@ -29,15 +29,17 @@ Currently working on [PHION](https://github.com/phion-pm) and associated project
 
 ### **[Blog](https://blog.sortedcord.tech) & Updates**
 	
-[Paid Microsoft Store App for free](https://blog.sortedcord.tech/cracking/how-to-get-almost-any-paid-microsoft-store-app-for-free/) - 19.02.2022
+[Migrated to jekyll from Wordpress](https://sortedcord.tech/blog) - 05.03.2022
 	
-[Pep Talk On OSS](https://blog.sortedcord.tech/programming/pep-talk-open-sourcing/) - 17.02.2022
+[Paid Microsoft Store App for free](https://sortedcord.tech/blog/cracking/paid-microsoft-store-apps-for-free.html) - 19.02.2022
+	
+[Pep Talk On OSS](https://sortedcord.tech/blog/technology/pep-talk-on-FOSS.html) - 17.02.2022
 
 [Revamped GH Profile](https://github.com/sortedcord) - 16.02.2022
 
 *Paused Development* - 15.02.2022
 
-[Thoughts on Metaverse](https://blog.sortedcord.tech/technology/metaverse-a-virtual-paradise-or-a-digital-disaster/) - 08.02.2022
+[Thoughts on Metaverse](https://sortedcord.tech/blog/technology/metaverse-a-virtual-paradise-or-a-human-digital-disaster.html) - 08.02.2022
 
 
 </th>
