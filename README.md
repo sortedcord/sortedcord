@@ -1,9 +1,9 @@
 <!-- Dark Mode -->
-[![Visit my website!](Assets/glitch_header.gif)](https://sortedcord.tech)
+[![Visit my website!](images/readme/glitch_header.gif)](https://sortedcord.tech)
 <!-- Light Mode
-[![Visit my website!](Assets/glitch_header_light.gif#gh-light-mode-only)](https://sortedcord.tech) -->
+[![Visit my website!](images/readme/glitch_header_light.gif#gh-light-mode-only)](https://sortedcord.tech) -->
 
-<p><b>Welcome to my page!</b></br> I'm Aditya, Front-end developer from <img src="Assets/india_flag.png" width="13"/> <b>Delhi, India</b>. </p>
+<p><b>Welcome to my page!</b></br> I'm Aditya, Front-end developer from <img src="images/readme/india_flag.png" width="13"/> <b>Delhi, India</b>. </p>
 
 Currently working on [PHION](https://github.com/phion-pm) and associated projects. Read my [blog](https://sortedcord.tech/blog) or follow [@sortedcord on Twitter](https://twitter.com/sortedcord).
 
