@@ -1,8 +1,9 @@
 #-------------------------------
 # General Site Settings
 title: sortedcord
-logo: favicon.ico
-description: A programmer with a focus on visual identity, creativity and utility.
+logo: 
+description:  Welcome to my portfolio page! I am Aditya Gupta and also go by sortedcord, a front-end developer and UI designer. Blogs Tutorials and more!
+tagline: A programmer with a focus on visual identity, creativity and utility.
 baseurl: ""
 url: "https://sortedcord.tech" # The base hostname & protocol for your site, e.g. http://example.com
 
@@ -13,6 +14,8 @@ author:
   name: Aditya Gupta
   avatar: 'https://avatars.githubusercontent.com/u/37407370?v=4'
 
+twitter:
+  card: summary_large_image
 
 #-------------------------------
 # Hero Settings
@@ -64,6 +67,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-seo-tag
 
 kramdown:
   parse_block_html: true

@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /
+title: Portfolio
 ---
 
 <!DOCTYPE html>
@@ -10,13 +11,21 @@ permalink: /
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 	<!-- SEO Meta -->
-	<meta name="keywords" content="sortedcord,Aditya Gupta,portfolio,personal portfolio,web developer,programmer,python developer">
-	<meta name="description" content="A programmer with a focus on visual identity, creativity and
-	utility. Welcome to my portfolio page! I am Aditya Gupta and also go by sortedcord...">
+	<title>{{ page.title }} - {{ site.title }} | {{ site.tagline }}</title>
+	<meta property='og:title'  content='{{ site.title }} - {{ page.title }} | {{ site.tagline }}'>
+	<meta name="description" content="{{ site.description }}">
+	<meta name="keywords" content="sortedcord, Aditya Gupta, portfolio, personal portfolio, web developer, programmer, python developer, blog">
 	<meta name="author" content="sortedcord" href="https://github.com/sortedcord">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>sortedcord - Aditya Gupta | Portfolio</title>
+	<meta property="og:image"  content="{{site.baseurl}}/images/right.webp">
+	
+	<meta name='twitter:title' content='{{ site.title }} - {{ page.title }} | {{ site.tagline }}'>
+	<meta name='twitter:description' content='{{ site.description }}'>
+	<meta name="twitter:image" content="{{site.baseurl}}/images/right.webp">
 
+
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
