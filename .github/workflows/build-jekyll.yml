@@ -29,5 +29,5 @@ jobs:
           jekyll_src: './'           # Default is root directory
           jekyll_cfg: '_config.yml'  # Default is _config.yml
           jekyll_baseurl: ''  # Default is empty
-          cname: ''                  # Default is to not use a cname
+          cname: 'sortedcord.tech'                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
