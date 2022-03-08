@@ -30,7 +30,7 @@ Download the .appx or `.appxbundle` file by clicking on the link. Be default, yo
 
 In order to trick the system into believing that we do have the required licenses, we would have to generate our own digital signatures. This is where WSAppbak comes in handy.
 
-Download WSAppBak 1.0 – Github
+[Download WSAppBak 1.0 – Github](https://github.com/Wapitiii/WSAppBak/releases/download/v1.0/WSAppBak.zip)
 
 Extract the zip file and open the folder. In the Folder Location bar type cmd and enter to open a command prompt at that folder location.
 
