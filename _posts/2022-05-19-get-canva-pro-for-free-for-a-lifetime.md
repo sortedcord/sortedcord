@@ -2,7 +2,7 @@
 layout: post
 title:  Get a Canva Pro Subscription for a lifetime without paying a penny
 description: A short (and legal) way to get canva pro absolutely for free forever.
-date:   2022-02-19 15:01:35 +0530
+date:   2022-05-19 12:07:00 +0530
 image:  '/images/canva_pro_free/header.jpg'
 tags:   [Cracking, Canva]
 category: Cracking
