@@ -1,62 +1,13 @@
 <!-- Dark Mode -->
-[![Visit my website!](images/readme/glitch_header.gif)](https://sortedcord.tech)
-<!-- Light Mode
-[![Visit my website!](images/readme/glitch_header_light.gif#gh-light-mode-only)](https://sortedcord.tech) -->
+[![Visit my website!](images/readme/glitch_header.gif)](https://adityagupta.dev)
 
-<p><b>Welcome to my page!</b></br> I'm Aditya, Front-end developer from <img src="images/readme/india_flag.png" width="13"/> <b>Delhi, India</b>. </p>
-<!-- 
-Currently working on [PHION](https://github.com/phion-pm) and associated projects. Read my [blog](https://sortedcord.tech/blog) or follow [@sortedcord on Twitter](https://twitter.com/sortedcord).
+<p><b>Welcome to my page!</b></br> I'm Aditya,`[insert stack here >_<]` developer from <img src="images/readme/india_flag.png" width="13"/> <b>Delhi, India</b>. </p>
 
-<table width="100%">
-<tr><td width="33.3%">
+## Stuff I'm doing now
 
-### **Recent Releases**
+- Working on the [Groovbox project](https://github.com/Groovbox/)
+- ![Svelte](https://img.shields.io/badge/Svelte-fc5e03?style=flat&logo=svelte&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white) ![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=green)
 
-[PHION Core 0.0.1](https://pypi.org/project/phion/) - 06.02.2022
-
-[OsuStatQt 0.0.5](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.5-alpha)  - 09.01.2022
-
-[OsuStatQt 0.0.4](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.4-alpha)  - 02.01.2022
-
-[OsuStatQt 0.0.3](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.3-alpha)  - 30.12.2021
-	
-[OsuStatQt 0.0.2](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.2-alpha)  - 28.12.2021
-
-[OsuStatQt 0.0.1](https://github.com/sortedcord/osu-statqt/releases/tag/v0.0.1-alpha)  - 27.12.2021
-
-</th>
-<td width="33.3%">
-
-### **[Blog](https://blog.sortedcord.tech) & Updates**
-	
-[Migrated to jekyll from Wordpress](https://sortedcord.tech/blog) - 05.03.2022
-	
-[Paid Microsoft Store App for free](https://sortedcord.tech/blog/cracking/paid-microsoft-store-apps-for-free.html) - 19.02.2022
-	
-[Pep Talk On OSS](https://sortedcord.tech/blog/technology/pep-talk-on-FOSS.html) - 17.02.2022
-
-[Revamped GH Profile](https://github.com/sortedcord) - 16.02.2022
-
-*Paused Development* - 15.02.2022
-
-[Thoughts on Metaverse](https://sortedcord.tech/blog/technology/metaverse-a-virtual-paradise-or-a-human-digital-disaster.html) - 08.02.2022
-
-
-</th>
-<td width="33.3%">
-
-### **Stuff I'm Learning**
-
-[Use _ for int delims](https://www.python.org/dev/peps/pep-0515/) - 14.02.2022
-
-[Python Decorators and wrapped functions]() - 10.02.2022
-
-[Documentation with Obsidian](https://obsidian.md) - 03.02.2022
-
-</th>
-</tr>
-</table>
--->
 
 ## Dev Stack
 
