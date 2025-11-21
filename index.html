@@ -1,50 +1,598 @@
----
-layout: default
-permalink: blog/
-title: Blog
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya | Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Gruvbox Dark Palette */
+            --bg-dark: #282828;
+            --bg-darker: #1d2021;
+            --fg-light: #fbf1c7;
 
-<!-- begin hero -->
-{% if site.hero.image %}
-<section class="hero">
-  <div class="hero__inner">
-    <div class="hero__image">
-      <img class="lazy" data-src="{{site.baseurl}}{{site.hero.image}}" alt="{{site.hero.title}}">
-    </div>
-    <div class="hero__content">
-      <h1 class="hero__title">{{site.hero.title}}</h1>
-      <p class="hero__desc">{{site.hero.description}}</p>
-    </div>
-  </div>
-</section>
-{% else %}
-<section class="hero-without-image">
-  <div class="hero-inner">
-    <div class="hero-content">
-      <h1 class="hero__title">{{site.hero.title}}</h1>
-      <p class="hero__desc">{{site.hero.description}}</p>
-    </div>
-  </div>
-</section>
-{% endif %}
-<!-- begin hero -->
+            --gruv-red: #cc241d;
+            --gruv-green: #98971a;
+            --gruv-yellow: #fabd2f; 
+            --gruv-blue: #458588;
+            --gruv-purple: #b16286;
+            --gruv-aqua: #689d6a;
+            --gruv-orange: #d65d0e;
+            --gruv-gray: #928374;
 
-{% include featured-posts.html %}
+            /* Mapping old names to new colors for easier CSS replacement */
+            --neon-pink: var(--gruv-orange);
+            --neon-cyan: var(--gruv-yellow);
+            --neon-yellow: var(--gruv-green);
+            --grid-color: rgba(152, 151, 26, 0.1); 
+        }
 
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <div class="container__inner">
-        <div class="row grid">
-          {% if site.posts.size > 0 %}
-            {% for post in paginator.posts %}
-              {% include article-content.html %}
-            {% endfor %}
-          {% endif %}
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-dark);
+            font-family: 'Share Tech Mono', monospace;
+            color: var(--fg-light);
+            overflow: hidden;
+            cursor: crosshair;
+        }
+
+        ::-webkit-scrollbar {
+            height: 0px;
+            width: 0px;
+            background: transparent;
+        }
+
+        #scroll-container {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+            position: relative;
+            scroll-behavior: smooth;
+        }
+
+        @media (min-width: 768px) {
+            #scroll-container {
+                flex-direction: row;
+                overflow-x: auto;
+                overflow-y: hidden;
+                scroll-behavior: auto;
+            }
+        }
+
+        .retro-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: 
+                linear-gradient(var(--grid-color) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+            background-size: 40px 40px;
+            perspective: 500px;
+            transform-style: preserve-3d;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .retro-grid::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent 60%, var(--bg-dark) 100%);
+        }
+
+        /* rlly cool scanlines*/
+        .scanlines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 4px, 6px 100%;
+            pointer-events: none;
+            z-index: 50;
+            animation: flicker 0.15s infinite;
+        }
+
+        @keyframes flicker {
+            0% { opacity: 0.9; }
+            50% { opacity: 0.95; }
+            100% { opacity: 0.9; }
+        }
+
+        /* Typography & Glows */
+        h1, h2, h3 {
+            font-family: 'Press Start 2P', cursive;
+            text-transform: uppercase;
+        }
+
+        .text-glow-pink {
+            text-shadow: 2px 2px 0px #5c2a06, 0 0 20px var(--gruv-orange);
+        }
+        .text-glow-cyan {
+            text-shadow: 2px 2px 0px #6b5314, 0 0 20px var(--gruv-yellow);
+        }
+        .box-glow {
+            box-shadow: 0 0 15px var(--gruv-yellow), inset 0 0 10px var(--gruv-yellow);
+            border: 2px solid var(--gruv-yellow);
+        }
+        .box-glow-pink {
+            box-shadow: 0 0 15px var(--gruv-orange), inset 0 0 10px var(--gruv-orange);
+            border: 2px solid var(--gruv-orange);
+        }
+
+
+        /* text glitching override, don't remove */
+        #hero h1 {
+            text-transform: none;
+        }
+
+        /* Section Layouts */
+        section {
+            width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            padding: 2rem;
+            flex-shrink: 0;
+        }
+
+        @media (min-width: 768px) {
+            section {
+                flex: 0 0 100vw;
+                height: 100vh;
+                min-height: auto;
+            }
+        }
+
+        .glitch {
+            position: relative;
+        }
+        .glitch::before, .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-dark);
+        }
+        .glitch::before {
+            left: 2px;
+            text-shadow: -2px 0 var(--gruv-red);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim 5s infinite linear alternate-reverse;
+        }
+        .glitch::after {
+            left: -2px;
+            text-shadow: -2px 0 var(--gruv-yellow);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim2 5s infinite linear alternate-reverse;
+        }
+        /* i hate css */
+        @keyframes glitch-anim {
+            0% { clip: rect(10px, 9999px, 30px, 0); }
+            20% { clip: rect(80px, 9999px, 100px, 0); }
+            40% { clip: rect(40px, 9999px, 60px, 0); }
+            60% { clip: rect(20px, 9999px, 50px, 0); }
+            80% { clip: rect(90px, 9999px, 100px, 0); }
+            100% { clip: rect(10px, 9999px, 30px, 0); }
+        }
+        @keyframes glitch-anim2 {
+            0% { clip: rect(60px, 9999px, 80px, 0); }
+            20% { clip: rect(10px, 9999px, 20px, 0); }
+            40% { clip: rect(90px, 9999px, 100px, 0); }
+            60% { clip: rect(30px, 9999px, 50px, 0); }
+            80% { clip: rect(50px, 9999px, 70px, 0); }
+            100% { clip: rect(20px, 9999px, 40px, 0); }
+        }
+
+        /* corner cut style floppy card, think it looks cool?>*/
+        .floppy {
+            background: #3c3836; /* Gruvbox bg-light */
+            clip-path: polygon(
+                0 0, 
+                100% 0, 
+                100% 100%, 
+                10% 100%, 
+                0 90%
+            );
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .floppy:hover {
+            transform: translateY(-10px) rotate(1deg);
+            box-shadow: 10px 10px 0px var(--gruv-orange);
+        }
+
+        .hero-box {
+            clip-path: polygon(
+                0 0, 
+                100% 0, 
+                100% 100%, 
+                10% 100%, 
+                0 90%
+            );
+        }
+
+        .floppy-btn {
+            clip-path: polygon(
+                0 0, 
+                100% 0, 
+                100% 100%, 
+                10px 100%, 
+                0 calc(100% - 10px)
+            );
+        }
+
+        /* Floating elements anime */
+        .float-anim {
+            animation: float 6s ease-in-out infinite;
+        }
+        .float-anim-delayed {
+            animation: float 6s ease-in-out 3s infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Loading Screen */
+        /* TODO: Make less intrusive */
+        #loader {
+            position: fixed;
+            inset: 0;
+            background: var(--bg-dark);
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transition: opacity 1s ease;
+        }
+        .loader-bar {
+            width: 300px;
+            height: 20px;
+            border: 2px solid var(--gruv-yellow);
+            padding: 2px;
+            margin-top: 20px;
+        }
+        .loader-fill {
+            width: 0%;
+            height: 100%;
+            background-color: var(--gruv-orange);
+            animation: load 2s forwards;
+        }
+        @keyframes load {
+            0% { width: 0%; }
+            100% { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CRT Overlay -->
+    <div class="scanlines"></div>
+    <div class="retro-grid"></div>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <h2 class="text-[#fabd2f] text-xl animate-pulse">INITIALIZING SYSTEM...</h2>
+        <div class="loader-bar">
+            <div class="loader-fill"></div>
         </div>
-      </div>
+        <p class="mt-4 text-xs text-[#928374]">LOADING ASSETS</p>
+<!-- gotta make it less intrusive -->
     </div>
-  </div>
-</div>
 
-{% include pagination.html %}
+    <div class="fixed top-5 left-5 z-40 text-xs border border-[#fabd2f] p-2 bg-[#282828]/50 backdrop-blur-sm">
+        <div id="clock">00:00:00</div>
+        <div class="text-[#d65d0e] mt-1">SYS: ONLINE</div>
+    </div>
+
+    <div class="fixed bottom-5 right-5 z-40 animate-bounce text-[#fabd2f] text-xl hidden md:block">
+        SCROLL TO NAVIGATE &rarr;
+    </div>
+
+    <!-- Main Scroll Container -->
+    <div id="scroll-container">
+        
+        <!-- SECTION 1: HERO -->
+        <section id="hero" class="relative">
+            <div class="absolute top-10 left-10 opacity-20 text-[10rem] font-bold leading-none select-none pointer-events-none text-[#928374]">
+                01
+            </div>
+            
+            <div class="z-10 flex flex-col items-start max-w-4xl">
+                <p class="text-[#fabd2f] mb-4 tracking-widest">/// WELCOME PLAYER 1</p>
+                <h1 class="text-5xl md:text-8xl mb-6 glitch text-glow-pink break-words max-w-full" data-text="ADITYA">ADITYA</h1>
+               <!-- TODO: Decrease size on morph  -->
+                <h2 class="text-xl md:text-4xl text-[#fbf1c7] mb-8 typing-effect">FULL STACK DEVELOPER_</h2>
+                
+                <div class="p-6 border-l-4 border-[#d65d0e] bg-[#282828]/40 backdrop-blur-md max-w-xl hero-box">
+                    <p class="leading-relaxed text-[#ebdbb2] text-sm md:text-base">
+                    Wasn't Lorem Ipsum enough for this thing?
+                        <br><br>
+
+                        <span class="text-[#fabd2f] blinking-cursor"> Press scroll to start adventure</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Decorative Background Elements -->
+            <div class="absolute right-20 top-1/4 w-64 h-64 border-2 border-[#d65d0e] rounded-full opacity-20 float-anim hidden md:block"></div>
+            <div class="absolute right-40 bottom-1/4 w-32 h-32 border border-[#fabd2f] transform rotate-45 opacity-40 float-anim-delayed hidden md:block"></div>
+        </section>
+
+
+        <!-- SECTION 2: ABOUT & STATS -->
+        <section id="about" class="bg-[#282828]/20">
+            <div class="absolute top-10 left-10 opacity-20 text-[10rem] font-bold leading-none select-none pointer-events-none text-[#928374]">
+                02
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-6xl z-10">
+                
+                <!-- Character Card -->
+                <div class="box-glow bg-[#3c3836]/80 p-2 flex flex-col items-center transform -rotate-1">
+                    <div class="w-full h-48 bg-gradient-to-b from-[#076678] to-[#282828] flex items-center justify-center mb-4 border-b-2 border-[#fabd2f] relative overflow-hidden">
+                        <!-- Pixel Art Placeholder -->
+                        <div class="text-6xl">Technically an Image</div>
+                        <div class="absolute bottom-1 right-1 text-[10px] text-[#8ec07c]">AVATAR_ID: ADITYA</div>
+                    </div>
+                    <div class="w-full p-4 text-sm">
+                        <div class="flex justify-between mb-2 border-b border-[#928374] pb-1">
+                            <span>CLASS:</span> <span class="text-[#d65d0e]">Dungeons and dragons is cool</span>
+                        </div>
+                        <div class="flex justify-between mb-2 border-b border-[#928374] pb-1">
+                            <span>LEVEL:</span> <span class="text-[#fabd2f]">CHANGEME</span>
+                        </div>
+                        <div class="flex justify-between mb-2 border-b border-[#928374] pb-1">
+                            <span>HP:</span> <span class="text-[#98971a]">100%</span>
+                        </div>
+                        <div class="flex justify-between mb-2 border-b border-[#928374] pb-1">
+                            <span>MANA:</span> <span class="text-[#458588]">Cake Overload</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Content -->
+                <div class="flex flex-col justify-center">
+                    <h2 class="text-2xl md:text-4xl text-[#fabd2f] mb-6 text-glow-cyan">SYSTEM ANALYSIS</h2>
+                    <p class="text-sm md:text-lg leading-relaxed mb-6 border border-[#928374] p-6 bg-[#282828]/50 text-[#ebdbb2]">
+                       CHANGEME 
+                    </p>
+                    
+                    <!-- Skill Bars -->
+                    <div class="space-y-4 font-bold text-xs">
+                        <div>
+                            <div class="flex justify-between mb-1"><span>RUST</span> <span>95%</span></div>
+                            <div class="w-full h-2 bg-[#1d2021]"><div class="h-full bg-[#d65d0e]" style="width: 95%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>REACT / NEXT.JS</span> <span>90%</span></div>
+                            <div class="w-full h-2 bg-[#1d2021]"><div class="h-full bg-[#fabd2f]" style="width: 90%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>BACKEND / DB</span> <span>85%</span></div>
+                            <div class="w-full h-2 bg-[#1d2021]"><div class="h-full bg-[#fabd2f]" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION 3: PROJECTS -->
+        <section id="projects" class="relative">
+            <div class="absolute top-10 left-10 opacity-20 text-[10rem] font-bold leading-none select-none pointer-events-none text-[#928374]">
+                03
+            </div>
+
+            <div class="flex flex-col h-full justify-center w-full px-4 md:px-20 max-w-7xl mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-6 border-b-4 border-[#d65d0e] pb-4 bg-[#282828]/40 p-4 backdrop-blur-sm">
+                    <div class="mb-4 md:mb-0 w-full md:w-auto">
+                        <h2 class="text-2xl md:text-5xl text-[#d65d0e] text-glow-pink mb-2">PROJECT DATABASE</h2>
+                        <p class="text-[#fabd2f] text-xs md:text-sm animate-pulse">/// SELECT FILE TO EXECUTE // VER 2.0</p>
+                    </div>
+                    <!-- Scroll Controls -->
+                    <div class="flex gap-4 w-full md:w-auto justify-end">
+                        <div class="flex flex-col justify-center mr-4 text-[10px] text-[#928374] text-right hidden md:block">
+                            <div>SCROLL_Y: ENABLED</div>
+                            <div>MOUSE_WHEEL: DISABLED</div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <button id="scroll-up" class="w-12 h-10 border-2 border-[#fabd2f] hover:bg-[#fabd2f] hover:text-[#282828] hover:shadow-[0_0_15px_rgba(250,189,47,0.6)] transition-all text-xl flex items-center justify-center active:scale-95 bg-[#282828]" aria-label="Scroll Up">▲</button>
+                            <button id="scroll-down" class="w-12 h-10 border-2 border-[#fabd2f] hover:bg-[#fabd2f] hover:text-[#282828] hover:shadow-[0_0_15px_rgba(250,189,47,0.6)] transition-all text-xl flex items-center justify-center active:scale-95 bg-[#282828]" aria-label="Scroll Down">▼</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scroll Window Frame -->
+                <div class="relative border-x-2 border-b-2 border-[#928374] bg-[#282828]/60 h-[60vh] md:h-[500px] box-glow">
+                    <!-- Internal CRT Scanline overlay for just this box -->
+                    <div class="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.2)_50%),linear-gradient(90deg,rgba(255,0,0,0.03),rgba(0,255,0,0.01),rgba(0,0,255,0.03))] bg-[length:100%_2px,3px_100%] z-20"></div>
+                    
+                    <!-- The Scrollable Container (Hidden Overflow) -->
+                    <div id="project-grid" class="h-full overflow-hidden grid grid-cols-1 md:grid-cols-2 gap-6 p-6 scroll-smooth">
+                        
+                        <!-- Project 1 -->
+                          <!-- Gippity time -->
+                        <div class="floppy w-full p-6 text-[#fbf1c7] flex flex-col justify-between h-80 border border-[#928374] relative group bg-[#3c3836]">
+                            <div class="absolute top-2 right-2 w-3 h-3 bg-[#cc241d] rounded-full animate-ping"></div>
+                            <div>
+                                <div class="w-full h-24 bg-[#1d2021] mb-4 border border-[#928374] flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <span class="text-4xl">🛒</span>
+                                </div>
+                                <h3 class="text-xl text-[#fabd2f] mb-2">E-COMM ENGINE</h3>
+                                <p class="text-xs text-[#928374] leading-relaxed mb-4">Full stack headless commerce solution built with Next.js and Shopify API.</p>
+                                <div class="flex gap-2 flex-wrap">
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">React</span>
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">Node</span>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full py-2 bg-[#d65d0e] hover:bg-[#af4c0b] text-[#282828] font-bold text-sm transition-colors border-t-2 border-[#fbf1c7]/20 floppy-btn">
+                                EXECUTE.EXE
+                            </button>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="floppy w-full p-6 text-[#fbf1c7] flex flex-col justify-between h-80 border border-[#928374] relative group bg-[#3c3836]">
+                            <div class="absolute top-2 right-2 w-3 h-3 bg-[#98971a] rounded-full animate-pulse"></div>
+                            <div>
+                                <div class="w-full h-24 bg-[#1d2021] mb-4 border border-[#928374] flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <span class="text-4xl">🤖</span>
+                                </div>
+                                <h3 class="text-xl text-[#fabd2f] mb-2">AI ASSISTANT</h3>
+                                <p class="text-xs text-[#928374] leading-relaxed mb-4">Natural language processing interface using OpenAI API and Python.</p>
+                                <div class="flex gap-2 flex-wrap">
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">Python</span>
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">LLM</span>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full py-2 bg-[#d79921] hover:bg-[#fabd2f] text-[#282828] font-bold text-sm transition-colors border-t-2 border-[#fbf1c7]/20 floppy-btn">
+                                EXECUTE.EXE
+                            </button>
+                        </div>
+
+                         <!-- Project 3 -->
+                         <div class="floppy w-full p-6 text-[#fbf1c7] flex flex-col justify-between h-80 border border-[#928374] relative group bg-[#3c3836]">
+                            <div class="absolute top-2 right-2 w-3 h-3 bg-[#fabd2f] rounded-full"></div>
+                            <div>
+                                <div class="w-full h-24 bg-[#1d2021] mb-4 border border-[#928374] flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <span class="text-4xl">📊</span>
+                                </div>
+                                <h3 class="text-xl text-[#fabd2f] mb-2">DASHBOARD V2</h3>
+                                <p class="text-xs text-[#928374] leading-relaxed mb-4">Real-time analytics visualization for SaaS platforms.</p>
+                                <div class="flex gap-2 flex-wrap">
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">D3.js</span>
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">Vue</span>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full py-2 bg-[#b16286] hover:bg-[#d3869b] text-[#282828] font-bold text-sm transition-colors border-t-2 border-[#fbf1c7]/20 floppy-btn">
+                                EXECUTE.EXE
+                            </button>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="floppy w-full p-6 text-[#fbf1c7] flex flex-col justify-between h-80 border border-[#928374] relative group bg-[#3c3836]">
+                            <div class="absolute top-2 right-2 w-3 h-3 bg-[#458588] rounded-full animate-bounce"></div>
+                            <div>
+                                <div class="w-full h-24 bg-[#1d2021] mb-4 border border-[#928374] flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <span class="text-4xl">🕹️</span>
+                                </div>
+                                <h3 class="text-xl text-[#fabd2f] mb-2">RETRO GAME HUB</h3>
+                                <p class="text-xs text-[#928374] leading-relaxed mb-4">A WebGL based emulator interface for classic arcade titles.</p>
+                                <div class="flex gap-2 flex-wrap">
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">WebGL</span>
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">Three.js</span>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full py-2 bg-[#076678] hover:bg-[#458588] text-[#fbf1c7] font-bold text-sm transition-colors border-t-2 border-[#fbf1c7]/20 floppy-btn">
+                                EXECUTE.EXE
+                            </button>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="floppy w-full p-6 text-[#fbf1c7] flex flex-col justify-between h-80 border border-[#928374] relative group bg-[#3c3836]">
+                            <div class="absolute top-2 right-2 w-3 h-3 bg-[#9d0006] rounded-full animate-ping"></div>
+                            <div>
+                                <div class="w-full h-24 bg-[#1d2021] mb-4 border border-[#928374] flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <span class="text-4xl">🔒</span>
+                                </div>
+                                <h3 class="text-xl text-[#fabd2f] mb-2">NET-SEC TOOL</h3>
+                                <p class="text-xs text-[#928374] leading-relaxed mb-4">Network vulnerability scanner visualization dashboard.</p>
+                                <div class="flex gap-2 flex-wrap">
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">Go</span>
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">React Flow</span>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full py-2 bg-[#cc241d] hover:bg-[#9d0006] text-[#fbf1c7] font-bold text-sm transition-colors border-t-2 border-[#fbf1c7]/20 floppy-btn">
+                                EXECUTE.EXE
+                            </button>
+                        </div>
+
+                        <!-- Project 6 -->
+                        <div class="floppy w-full p-6 text-[#fbf1c7] flex flex-col justify-between h-80 border border-[#928374] relative group bg-[#3c3836]">
+                            <div class="absolute top-2 right-2 w-3 h-3 bg-[#b16286] rounded-full"></div>
+                            <div>
+                                <div class="w-full h-24 bg-[#1d2021] mb-4 border border-[#928374] flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <span class="text-4xl">🎹</span>
+                                </div>
+                                <h3 class="text-xl text-[#fabd2f] mb-2">SYNTHWAVE FM</h3>
+                                <p class="text-xs text-[#928374] leading-relaxed mb-4">Procedural audio generator creating infinite synthwave tracks.</p>
+                                <div class="flex gap-2 flex-wrap">
+                                    <span class="px-2 py-1 bg-[#1d2021] text-[10px] border border-[#928374] text-[#fbf1c7]">Web Audio API</span>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full py-2 bg-[#e77d3c] hover:bg-[#d65d0e] text-[#282828] font-bold text-sm transition-colors border-t-2 border-[#fbf1c7]/20 floppy-btn">
+                                EXECUTE.EXE
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION 4: CONTACT -->
+        <section id="contact" class="relative">
+            <div class="absolute top-10 left-10 opacity-20 text-[10rem] font-bold leading-none select-none pointer-events-none text-[#928374]">
+                04
+            </div>
+
+            <div class="z-10 max-w-2xl w-full bg-[#282828] border-2 border-[#d65d0e] p-1 shadow-[10px_10px_0px_rgba(214,93,14,0.5)]">
+                <div class="bg-[#d65d0e] p-2 text-[#282828] font-bold flex justify-between items-center">
+                    <span>MESSAGE_TERMINAL.EXE</span>
+                    <div class="flex gap-2">
+                        <div class="w-3 h-3 bg-[#282828] rounded-full"></div>
+                        <div class="w-3 h-3 bg-[#282828] rounded-full"></div>
+                    </div>
+                </div>
+                <div class="p-8 flex flex-col items-center text-center">
+                    <h2 class="text-2xl md:text-3xl mb-4 text-[#fabd2f]">INSERT COIN TO CONTACT</h2>
+                    <p class="text-sm text-[#928374] mb-8">
+                        Have a project in mind? Let's build the future together.
+                        Or just say hi, I like digital high-fives.
+                    </p>
+                    
+                    <a href="mailto:aditya@example.com" class="group relative inline-flex items-center justify-center px-8 py-3 text-lg font-bold text-[#fbf1c7] transition-all duration-200 bg-transparent border-2 border-[#fabd2f] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#fabd2f] hover:bg-[#fabd2f] hover:text-[#282828]">
+                        <span class="absolute inset-0 -ml-2 -mt-2 border-2 border-[#d65d0e] group-hover:translate-x-1 group-hover:translate-y-1 transition-transform"></span>
+                        <span class="relative">SEND EMAIL</span>
+                    </a>
+
+                    <div class="mt-12 flex flex-wrap gap-8 text-xl md:text-2xl justify-center">
+                        <a href="https://github.com/sortedcord" class="hover:text-[#d65d0e] transition-colors">GITHUB</a>
+                        <a href="https://linkedin.com/in/sortedcord" class="hover:text-[#fabd2f] transition-colors">LINKEDIN</a>
+                        <a href="https://x.com/sortedcord" class="hover:text-[#fabd2f] transition-colors">TWITTER</a>
+                    </div>
+                </div>
+            </div>
+            
+            <footer class="absolute bottom-5 w-full text-center text-xs text-[#928374]">
+                © 2025 ADITYA. MADE WITH &lt;3 AND GRUVBOX.
+            </footer>
+        </section>
+
+    </div>
+
+   <script src="./assets/js/index.js"></script>
+</body>
+</html>

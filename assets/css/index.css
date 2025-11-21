@@ -1,0 +1,256 @@
+        :root {
+            /* Gruvbox Dark Palette */
+            --bg-dark: #282828;
+            --bg-darker: #1d2021;
+            --fg-light: #fbf1c7;
+
+            --gruv-red: #cc241d;
+            --gruv-green: #98971a;
+            --gruv-yellow: #fabd2f; /* Using light yellow for accent */
+            --gruv-blue: #458588;
+            --gruv-purple: #b16286;
+            --gruv-aqua: #689d6a;
+            --gruv-orange: #d65d0e;
+            --gruv-gray: #928374;
+
+            /* Mapping old names to new colors for easier CSS replacement */
+            --neon-pink: var(--gruv-orange);
+            --neon-cyan: var(--gruv-yellow);
+            --neon-yellow: var(--gruv-green);
+            --grid-color: rgba(152, 151, 26, 0.1); /* Gruvbox green with low opacity */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-dark);
+            font-family: 'Share Tech Mono', monospace;
+            color: var(--fg-light);
+            overflow: hidden; /* We handle scroll via JS */
+            cursor: crosshair;
+        }
+
+        /* Custom Scrollbar hide */
+        ::-webkit-scrollbar {
+            height: 0px;
+            width: 0px;
+            background: transparent;
+        }
+
+        /* The Horizontal Track */
+        #scroll-container {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 100vh;
+            overflow-x: auto;
+            overflow-y: hidden;
+            /* scroll-behavior: smooth;  <-- Removed to prevent easing on wheel scroll */
+            position: relative;
+        }
+
+        /* Retro Grid Background */
+        .retro-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: 
+                linear-gradient(var(--grid-color) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+            background-size: 40px 40px;
+            perspective: 500px;
+            transform-style: preserve-3d;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .retro-grid::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent 60%, var(--bg-dark) 100%);
+        }
+
+        /* CRT Scanline Effect */
+        .scanlines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 4px, 6px 100%;
+            pointer-events: none;
+            z-index: 50;
+            animation: flicker 0.15s infinite;
+        }
+
+        @keyframes flicker {
+            0% { opacity: 0.9; }
+            50% { opacity: 0.95; }
+            100% { opacity: 0.9; }
+        }
+
+        /* Typography & Glows */
+        h1, h2, h3 {
+            font-family: 'Press Start 2P', cursive;
+            text-transform: uppercase;
+        }
+
+        .text-glow-pink {
+            text-shadow: 2px 2px 0px #5c2a06, 0 0 20px var(--gruv-orange);
+        }
+        .text-glow-cyan {
+            text-shadow: 2px 2px 0px #6b5314, 0 0 20px var(--gruv-yellow);
+        }
+        .box-glow {
+            box-shadow: 0 0 15px var(--gruv-yellow), inset 0 0 10px var(--gruv-yellow);
+            border: 2px solid var(--gruv-yellow);
+        }
+        .box-glow-pink {
+            box-shadow: 0 0 15px var(--gruv-orange), inset 0 0 10px var(--gruv-orange);
+            border: 2px solid var(--gruv-orange);
+        }
+
+        /* Section Layouts */
+        section {
+            flex: 0 0 100vw; /* Full width sections */
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            padding: 2rem;
+        }
+
+        /* Glitch Effect */
+        .glitch {
+            position: relative;
+        }
+        .glitch::before, .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-dark);
+        }
+        .glitch::before {
+            left: 2px;
+            text-shadow: -2px 0 var(--gruv-red);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim 5s infinite linear alternate-reverse;
+        }
+        .glitch::after {
+            left: -2px;
+            text-shadow: -2px 0 var(--gruv-yellow);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim2 5s infinite linear alternate-reverse;
+        }
+
+        @keyframes glitch-anim {
+            0% { clip: rect(10px, 9999px, 30px, 0); }
+            20% { clip: rect(80px, 9999px, 100px, 0); }
+            40% { clip: rect(40px, 9999px, 60px, 0); }
+            60% { clip: rect(20px, 9999px, 50px, 0); }
+            80% { clip: rect(90px, 9999px, 100px, 0); }
+            100% { clip: rect(10px, 9999px, 30px, 0); }
+        }
+        @keyframes glitch-anim2 {
+            0% { clip: rect(60px, 9999px, 80px, 0); }
+            20% { clip: rect(10px, 9999px, 20px, 0); }
+            40% { clip: rect(90px, 9999px, 100px, 0); }
+            60% { clip: rect(30px, 9999px, 50px, 0); }
+            80% { clip: rect(50px, 9999px, 70px, 0); }
+            100% { clip: rect(20px, 9999px, 40px, 0); }
+        }
+
+        /* Floppy Disk / Card Styling */
+        .floppy {
+            background: #3c3836; /* Gruvbox bg-light */
+            clip-path: polygon(
+                0 0, 
+                100% 0, 
+                100% 100%, 
+                10% 100%, 
+                0 90%
+            );
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .floppy:hover {
+            transform: translateY(-10px) rotate(1deg);
+            box-shadow: 10px 10px 0px var(--gruv-orange);
+        }
+
+        /* New style for the hero box cut */
+        .hero-box {
+            clip-path: polygon(
+                0 0, 
+                100% 0, 
+                100% 100%, 
+                10% 100%, 
+                0 90%
+            );
+        }
+
+        /* NEW: Button cut style (adjusted for shorter height) */
+        .floppy-btn {
+            clip-path: polygon(
+                0 0, 
+                100% 0, 
+                100% 100%, 
+                10px 100%, 
+                0 calc(100% - 10px)
+            );
+        }
+
+        /* Floating Elements Animation */
+        .float-anim {
+            animation: float 6s ease-in-out infinite;
+        }
+        .float-anim-delayed {
+            animation: float 6s ease-in-out 3s infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Loading Screen */
+        #loader {
+            position: fixed;
+            inset: 0;
+            background: var(--bg-dark);
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transition: opacity 1s ease;
+        }
+        .loader-bar {
+            width: 300px;
+            height: 20px;
+            border: 2px solid var(--gruv-yellow);
+            padding: 2px;
+            margin-top: 20px;
+        }
+        .loader-fill {
+            width: 0%;
+            height: 100%;
+            background-color: var(--gruv-orange);
+            animation: load 2s forwards;
+        }
+        @keyframes load {
+            0% { width: 0%; }
+            100% { width: 100%; }
+        }
+ 
